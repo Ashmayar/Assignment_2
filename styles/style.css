@@ -1,6 +1,11 @@
-body {
+* {
     max-width: 1050px;
     margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+body {
+    border: 2px solid red;
 }
 .header-section {
         display: flex;
@@ -22,6 +27,51 @@ body {
 .items-container a{
     text-decoration: none;
 }
+.explore {
+    position: relative;
+    background: 2px solid red;;
+    
+}
+.explore-headline {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.explore-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.input-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    margin: 0;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input {
+    position: absolute;
+    top: 70%;
+    width: 150px;
+    height: 30px;
+    
+    border: 10px solid white;
+    margin-right: 10px;
+    padding: 5px;
+}
+
 .popular-tour {
     background-color: aqua;
     display: flex;
